@@ -34,3 +34,5 @@ Designs here are uploaded with the following document to **minimize friction** f
 - [3D Board viewer](http://3dbrdviewer.cytec.bg/)
 
 - [KiCad Software](http://www.kicad-pcb.org/)
+
+- [Systematic PCB verification](https://engineering.purdue.edu/ece477/Resources/SystematicPCBVerification.pdf)
