@@ -8692,7 +8692,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 </libraries>
 <attributes>
 <attribute name="CNAME" value="USB Power hub x4"/>
-<attribute name="CREVISION" value="V0.2"/>
+<attribute name="CREVISION" value="V0.2.1"/>
 <attribute name="DESIGNER" value="kennethlimcp"/>
 </attributes>
 <variantdefs>
@@ -8743,7 +8743,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <part name="JP11" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="JP12" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
-<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402"/>
+<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402" value="1k"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
