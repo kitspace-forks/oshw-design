@@ -43,4 +43,3 @@ You will need to add a pull-up resistor in you external circuit in order to use 
 - Better DFM could be observed to aid future DIY repair work
 - USB footprint for the through-hole is slightly too narrow. Should refer to exact datasheet measurement in future
 - Visual inspection via a paper print-out before sending in order is a must. The panelized version has the connector numbering incrementing for each piece!
--
