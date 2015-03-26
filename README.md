@@ -13,7 +13,7 @@ The purpose is to encourage people to **embrace openness** and get more people *
 
 Designs here are uploaded with the following document to **minimize friction** for a beginner to get started:
 
--  Schematic design (EAGLE CAD)
+- Schematic design (EAGLE CAD)
 
 - GERBER file      (fabricate PCB immediately)
 
@@ -24,6 +24,10 @@ Designs here are uploaded with the following document to **minimize friction** f
 - Datasheet        (easy reference without searching)
 
 - Appnote          (deeper learning and understanding)
+
+####Useful writeups (by me)
+
+- [Checking a new PCB and populating it](/Resources/pcb-checks.md)
 
 ####Resources
 
