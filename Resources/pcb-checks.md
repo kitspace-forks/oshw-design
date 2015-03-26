@@ -1,6 +1,6 @@
 ###Verifying and populating a new PCB
 
-######Things to prepare
+####Things to prepare
 - Schematic printout
 - Parts layout/orientation printout
 - Multimeter
@@ -11,7 +11,7 @@
 - Solder paste (if you are reflowing)
 - Scrapper (to spread peanut butter..opps Solder paste)
 
-######Systematic verification steps
+####Systematic verification steps
 
 **Checking the bare PCB**
 - Test for short between power lines. eg. 5V and GND
@@ -34,7 +34,6 @@
 - Solder one part, check for goodness before moving on
 - As you solder, visually inspect the board and make sure the part is not "tombed"
 - For IC, be sure to apply some pressure to solder them firmly on the pad (not floating)
--
 
 **Populating the PCB (for reflow)**
 - If you are doing this process, you probably have a stencil ready to spread the Solder paste
