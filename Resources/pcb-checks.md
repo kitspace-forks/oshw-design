@@ -1,6 +1,6 @@
-######Verifying and populating a new PCB
+###Verifying and populating a new PCB
 
-###Things to prepare
+######Things to prepare
 - Schematic printout
 - Parts layout/orientation printout
 - Multimeter
@@ -11,7 +11,7 @@
 - Solder paste (if you are reflowing)
 - Scrapper (to spread peanut butter..opps Solder paste)
 
-###Systematic verification steps
+######Systematic verification steps
 
 **Checking the bare PCB**
 - Test for short between power lines. eg. 5V and GND
