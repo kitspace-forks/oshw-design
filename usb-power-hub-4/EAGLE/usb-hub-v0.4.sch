@@ -8692,7 +8692,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 </libraries>
 <attributes>
 <attribute name="CNAME" value="USB Power hub x4"/>
-<attribute name="CREVISION" value="V0.2.1"/>
+<attribute name="CREVISION" value="V0.4"/>
 <attribute name="DESIGNER" value="kennethlimcp"/>
 </attributes>
 <variantdefs>
@@ -8724,7 +8724,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <part name="C5" library="SparkFun-Capacitors" deviceset="1.0UF-16V-10%(0603)" device="" value="1.0uF"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="USB" device="-MICROB"/>
 <part name="GND-ISO2" library="SparkFun-Aesthetics" deviceset="GND-ISO" device=""/>
-<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402" value="10K"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402" value="10K"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="CAP_POL" device="D" value="150uF"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="10UF-16V-10%(TANT)" device="" value="10uF"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="CAP_POL" device="D" value="150uF"/>
@@ -8733,7 +8733,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <part name="C11" library="SparkFun-Capacitors" deviceset="10UF-16V-10%(TANT)" device="" value="10uF"/>
 <part name="C12" library="SparkFun-Capacitors" deviceset="CAP_POL" device="D" value="150uF"/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="10UF-16V-10%(TANT)" device="" value="10uF"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402" value="10K"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402" value="10K"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402" value="10K"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402" value="10K"/>
 <part name="JP7" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
@@ -8806,21 +8806,17 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <wire x1="195.58" y1="30.48" x2="215.9" y2="30.48" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="195.58" y1="30.48" x2="195.58" y2="63.5" width="0.1524" layer="97" style="shortdash"/>
 <text x="195.58" y="66.04" size="2.54" layer="97" font="vector">+5V indicator</text>
-<text x="-2.54" y="187.96" size="2.54" layer="97">Improvements from V0.1:
+<text x="-2.54" y="187.96" size="2.54" layer="97">Improvements from V0.3:
 
-- Fixed GND vias for USB port (some were not named as GND and left isolated)
+- Changed R1 and R2 label to match ascending port
 
-- Add in silkscreen for input + output header pins (clearer for users)
+- Increased text size for all silkscreen
 
-- Spaced out USB ports to have 6mm distance in between (support more devices)
+- Moved "designed" test to bottom
 
-- increased thickness for most power traces (improve power dissipation)
+- Shift OSHW logo inward so it doesn't break the ground plane
 
-- Increase Isolate to 15mil for 5V plane (increase manufacturability)
-
-- Added bStop for USB pads! (expose the USB pins on bottom layer)
-
-- version silkscreen on pcb to v0.2</text>
+- Improved DFM and hand soldering by shifting R1,R2,R3,R4 to the left </text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -8848,7 +8844,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <instance part="C5" gate="G$1" x="172.72" y="99.06"/>
 <instance part="JP2" gate="G$1" x="30.48" y="106.68" rot="MR0"/>
 <instance part="GND-ISO2" gate="G$1" x="40.64" y="101.6"/>
-<instance part="R2" gate="G$1" x="93.98" y="137.16" rot="R90"/>
+<instance part="R1" gate="G$1" x="93.98" y="137.16" rot="R90"/>
 <instance part="C6" gate="G$1" x="129.54" y="137.16"/>
 <instance part="C7" gate="G$1" x="137.16" y="137.16"/>
 <instance part="C8" gate="G$1" x="129.54" y="88.9"/>
@@ -8857,7 +8853,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <instance part="C11" gate="G$1" x="223.52" y="137.16"/>
 <instance part="C12" gate="G$1" x="215.9" y="88.9"/>
 <instance part="C13" gate="G$1" x="223.52" y="88.9"/>
-<instance part="R1" gate="G$1" x="93.98" y="88.9" rot="R90"/>
+<instance part="R2" gate="G$1" x="93.98" y="88.9" rot="R90"/>
 <instance part="R3" gate="G$1" x="180.34" y="137.16" rot="R90"/>
 <instance part="R4" gate="G$1" x="180.34" y="88.9" rot="R90"/>
 <instance part="JP7" gate="G$1" x="22.86" y="33.02"/>
@@ -8900,7 +8896,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <pinref part="C7" gate="G$1" pin="-"/>
 <wire x1="137.16" y1="129.54" x2="129.54" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="132.08" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="132.08" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8919,7 +8915,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <wire x1="137.16" y1="83.82" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="-"/>
 <wire x1="129.54" y1="83.82" x2="129.54" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="83.82" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9108,7 +9104,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <net name="EN1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="EN"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="142.24" x2="93.98" y2="142.24" width="0.1524" layer="91"/>
 <label x="93.98" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -9147,7 +9143,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <net name="EN2" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="EN"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
 <label x="93.98" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
