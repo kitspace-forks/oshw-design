@@ -7,6 +7,8 @@ With many low-cost linux board sitting around, getting more than 2 powered up be
 
 This hardware allows you to connect a 5V, ___A power adapter and share it with up to 4 x USB port.
 
+![USB-power-hub-x4](/Images/USB-Power-Hub-x4.JPG)
+
 The Data (DM,DP) lines are not connected together but can be individually modified!  You can experiment with different resistor values and see if you can trigger a **samsung fast charge** or get your Iphone to recognize the charger!
 
 **NOTE: ** You risk damaging your USB devices if the input polarity is reversed! One way to tell is to observe that the power led lights up, indicating the right polarity before inserting USB device. *You have been warned.*
