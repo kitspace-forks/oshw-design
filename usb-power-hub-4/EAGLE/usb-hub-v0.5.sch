@@ -8692,7 +8692,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 </libraries>
 <attributes>
 <attribute name="CNAME" value="USB Power hub x4"/>
-<attribute name="CREVISION" value="V0.4"/>
+<attribute name="CREVISION" value="V0.5"/>
 <attribute name="DESIGNER" value="kennethlimcp"/>
 </attributes>
 <variantdefs>
@@ -8806,17 +8806,9 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <wire x1="195.58" y1="30.48" x2="215.9" y2="30.48" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="195.58" y1="30.48" x2="195.58" y2="63.5" width="0.1524" layer="97" style="shortdash"/>
 <text x="195.58" y="66.04" size="2.54" layer="97" font="vector">+5V indicator</text>
-<text x="-2.54" y="187.96" size="2.54" layer="97">Improvements from V0.3:
+<text x="-2.54" y="187.96" size="2.54" layer="97">Improvements from V0.4:
 
-- Changed R1 and R2 label to match ascending port
-
-- Increased text size for all silkscreen
-
-- Moved "designed" test to bottom
-
-- Shift OSHW logo inward so it doesn't break the ground plane
-
-- Improved DFM and hand soldering by shifting R1,R2,R3,R4 to the left </text>
+- Adjusted USB A through hole spacing to match datasheet!</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
