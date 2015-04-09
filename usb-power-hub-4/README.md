@@ -38,6 +38,10 @@ Each USB power switch has a **FLAG** output that provides an open-drain output t
 
 You will need to add a pull-up resistor in you external circuit in order to use this.
 
+######Casing
+
+Oh yes, we now have a [3D-printable casing](casing) to house this useful little application and keeping the users safe from any accidental shorting!
+
 ###Lessons learnt
 
 **V0.2 fabrication**

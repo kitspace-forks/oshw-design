@@ -25,6 +25,8 @@ Designs here are uploaded with the following document to **minimize friction** f
 
 - Appnote          (deeper learning and understanding)
 
+- Casing           (more user-friendly and safe to hold)
+
 ####Useful writeups (by me)
 
 - [Checking a new PCB and populating it](/Resources/pcb-checks.md)
