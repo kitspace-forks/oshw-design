@@ -29,6 +29,7 @@ Designs here are uploaded with the following document to **minimize friction** f
 
 ####Useful writeups (by me)
 
+- [Bringing up a new board from scratch](/Resources/bring-up.md)
 - [Checking a new PCB and populating it](/Resources/pcb-checks.md)
 
 ####Resources
