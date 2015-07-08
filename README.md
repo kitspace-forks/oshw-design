@@ -31,6 +31,7 @@ Designs here are uploaded with the following document to **minimize friction** f
 
 - [Bringing up a new board from scratch](/Resources/bring-up.md)
 - [Checking a new PCB and populating it](/Resources/pcb-checks.md)
+- [EAGLE start off and mistakes](/Resources/eagle-notes.md)
 
 ####Resources
 
