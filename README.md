@@ -39,6 +39,8 @@ Designs here are uploaded with the following document to **minimize friction** f
 
 - [EAGLE Help](http://web.mit.edu/xavid/arch/i386_rhel4/help/index.htm)
 
+- [Sparkfun EAGLE Settings](https://github.com/sparkfun/SparkFun_Eagle_Settings)
+
 - [3D Board viewer](http://3dbrdviewer.cytec.bg/)
 
 - [KiCad Software](http://www.kicad-pcb.org/)

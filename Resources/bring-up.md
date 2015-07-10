@@ -75,4 +75,5 @@ Apache License 2.0
 
 - print-out and check for silkscreen visibility
 - final DRC rule cos it does not hurt
+- make a copy of the `.sch` and `.brd` and run the `teardrop` ULP. That will make the vias/pads stronger with increased trace surface area
 - zip up all the GERBERS!
