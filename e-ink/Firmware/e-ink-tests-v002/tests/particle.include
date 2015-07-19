@@ -1,0 +1,6 @@
+../lib/*h
+../lib/*cpp
+utility/*.h
+utility/*.cpp
+*.h
+*.cpp

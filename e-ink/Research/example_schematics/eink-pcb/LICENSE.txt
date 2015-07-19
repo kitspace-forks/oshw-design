@@ -1,0 +1,2 @@
+The PCB artwork for this project is all under a CC-BY-SA license:
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
