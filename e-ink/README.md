@@ -103,17 +103,35 @@ A laser cut casing would be great to house a useful demonstration set and avoid 
 - R0xx should be wired to +3V3 instead of EINK_VDD
 - some issue with +20v where voltage is present even when disabled
 
-- Possible PTC resettable fuse for the VUSB +5V line
-
 ####Resources
 
 Understanding the wiring for e-ink display would not be possible with the information shared by two pro open-source gentlemen.
 
 - [essential scrap](http://www.essentialscrap.com/eink/index.html)
 - [SpriteMods](http://spritesmods.com/?art=einkdisplay)
+- [Ti Dev board](http://www.ti.com/tool/TIDM-LPBP-EPAPER)
+- [SSD1606 driver](http://www.lcd-module.de/fileadmin/eng/pdf/zubehoer/ssd1606_1_1.pdf)
+- [OnSemi driver](http://www.onsemi.com/pub_link/Collateral/ENA2223-D.PDF)
+- [Eink reseach paper](http://aoe.scnu.edu.cn/uploadfile/2014/0508/20140508112156532.pdf)
+- [STM32L0 discovery board](http://www.st.com/st-web-ui/static/active/en/resource/technical/document/user_manual/DM00118944.pdf)
+- [Pebble Time teardown](https://www.ifixit.com/Teardown/Pebble+Time+Teardown/42382)
+- [Pebble Watch teardown](https://www.ifixit.com/Teardown/Pebble+Teardown/13319)
+- [RePaper code](https://github.com/repaper/gratis)
+- [Freescale i.MX50](http://cache.freescale.com/files/32bit/doc/data_sheet/IMX50CEC.pdf)
+- [GDE021A1 display project](http://www.jsykora.info/2014/06/epd-display-working/)
+- [Amazon Kindle source code](http://www.amazon.com/gp/help/customer/display.html?nodeId=200203720)
+- [E-ink display](http://www.buy-lcd.com/index.php?route=product/category&path=2897)
+- http://www.eevblog.com/forum/microcontrollers/interfacing-epd-(e-ink)-display-from-kindle-anyone-tried
+- [EPSON controller module](http://www.mouser.com/catalog/specsheets/x93ac002_f01__(S4E5B001B00A00_Product_Brief_Rev_1.0)[1].pdf)
+- [Epaper shield](http://epapershield.com/index.htm)
+
+- [PVI docs](http://wenku.baidu.com/view/c54385ea6294dd88d0d26b94.html)
+- [Epson ppt](http://wenku.baidu.com/view/e451453567ec102de2bd8908.html)
 
 Appnote
 
 - MOSFETS in load switch applications(AND9093D)
 - Reverse current/battery protection circuit (SLVA139)
 - Resistor decade table (dectable)
+- [USB disconnect circuit](https://developer.mbed.org/media/uploads/chris/mbed-005.1.pdf)
+- [I2C resistor calculation](http://www.ti.com/lit/an/slva689/slva689.pdf)
