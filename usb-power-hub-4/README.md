@@ -13,6 +13,10 @@ The Data (DM,DP) lines are not connected together but can be individually modifi
 
 **NOTE: ** You risk damaging your USB devices if the input polarity is reversed! One way to tell is to observe that the power led lights up, indicating the right polarity before inserting USB device. *You have been warned.*
 
+**Update 05 Aug 16**
+
+Using the resistor values from [Adafruit](https://learn.adafruit.com/assets/5973) to provide _~2.V_ on the data lines enabled apple/android charging! :)
+
 ###Power Connection
 
 ######Input
