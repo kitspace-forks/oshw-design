@@ -46,3 +46,5 @@ Designs here are uploaded with the following document to **minimize friction** f
 - [KiCad Software](http://www.kicad-pcb.org/)
 
 - [Systematic PCB verification](https://engineering.purdue.edu/ece477/Resources/SystematicPCBVerification.pdf)
+
+- [7 fatal pcb mistakes to avoid by Make](http://makezine.com/2016/08/15/7-fatal-mistakes-avoid-printed-circuit-board-pcb-design/)
