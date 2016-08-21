@@ -42,7 +42,8 @@ eg.
 - For silkscreen, mm, 1.27, 20%, Vector font works great
 - Via, inches, round, Drill 0.01968504, Diameter 0.05
 - Via, mm, round, Drill 0.5mm, Diameter 1.27mm
-- For polygon, set **isolate** to `0.012"`
+- For polygon, set **isolate** to `0.012inch/12mil"`
+- For routing, mil, 12
 
 ### Labels
 
